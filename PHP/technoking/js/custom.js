@@ -1,0 +1,167 @@
+//Product Carousel
+$('#product-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    autoplay:true,
+    smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+//Mouse Carousel
+$('#mouse-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    autoplay:true,
+    smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+//Keyboard Carousel
+$('#keyboard-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    autoplay:true,
+    smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+//Headphone Carousel
+$('#headphone-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    autoplay:true,
+    smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+//Monitor Carousel
+$('#monitor-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    autoplay:true,
+    smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+//CPU Cooler Carousel
+$('#cpu-cooler-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    autoplay:true,
+    smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+//Power Supply Carousel
+$('#power-supply-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    autoplay:true,
+    smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+//Ram Carousel
+$('#ram-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    dots:false,
+    autoplay:true,
+    smartSpeed:1000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});

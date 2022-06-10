@@ -1,0 +1,744 @@
+/* *******************************  Global Style Start Here *************************************** */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.mybtn1{
+	color: #d70d25;
+    background-color: #ffffff;
+    font-weight: 600;
+}
+.mybtn2{
+	color: #ffffff;
+	background-color: #d70d25;
+}
+.mybtn1:hover{
+	color: #d70d25;
+}
+.mybtn2:hover{
+	color: #ffffff;
+}
+
+.mybtn1:focus,
+.mybtn2:focus{
+	box-shadow: none;
+}
+
+.mybtn1::before,
+.mybtn2::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0%;
+	background-color: rgba(0,0,0,.1);
+	height: 100%;
+	z-index: -1;
+	transition: all .3s ease;
+	border-radius: 50px;
+}
+
+.mybtn1:hover::before,
+.mybtn2:hover::before{
+	width: 100%;
+}
+
+/* *******************************  Global Style Ends Here *************************************** */
+
+/* ********************************* Registration Page Style Start Here ********************** **** */
+
+
+.registration {
+    padding: 60px 0px;
+    background: url(../images/black-framed-eyeglasses-wallpaper.jpg) no-repeat top center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.reg-box {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 850px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.21);
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.21);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.21);
+}
+
+.reg-link-info {
+    width: 100%;
+    height: 100%;
+    background-color: #033397;
+}
+
+.reg-link {
+    padding: 30px 15px;
+    vertical-align: middle;
+    position: relative;
+    top: 20%;
+    left: 0;
+}
+
+.reg-link-info h4 {
+    color: #ffffff;
+    padding: 30px 0px 0px;
+    text-align: center;
+    font-size: 23px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.reg-link-info a {
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #9ecff8;
+    color: #9ecff8;
+    font-size: 16px;
+    display: block;
+    justify-content: center;
+    margin: 20px auto;
+    text-decoration: none;
+    padding: 5px 0px;
+    transition: 0.4s all;
+}
+
+.reg-link-info a:hover {
+    color: #fff;
+    transition: 0.4s all;
+}
+
+.reg-form {
+    padding: 35px 25px 35px 0px;
+}
+
+.reg-form h2 {
+    color: #3f3f3f;
+	font-size: 30px;
+	font-weight: 600;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+
+/* ********************************* Registration Page Style Ends Here ********************** **** */
+
+
+/* ********************************* Login Page Style Start Here ********************** **** */
+
+.login {
+    padding: 100px 0px;
+    background: url() no-repeat top center;
+    background-size: cover;
+}
+
+.login-com-info {
+    text-align: center;
+    background-color: #d70d25;
+    width: 100%;
+    height: 100%;
+}
+
+.login-com-info img {
+    padding: 80px 0px 10px;
+    width: 50%;
+}
+
+.login-com-info a {
+	text-decoration: none;
+	transition: all .3s ease;
+	color: #fff;
+}
+
+.login-com-info p {
+	margin: 0px;
+	padding: 5px 0px 0px;
+}
+
+/* ********************************* Login Page Style Ends Here ********************** **** */
+
+/* ********************************* Accessories Page Style Start Here ************************* */
+
+/* Header Top Style Start Here */
+
+.header {
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    background-color: #d70d25;
+}
+
+.navbar ul li a {
+	color: #ffffff;
+	transition: all .5s ease;
+	font-weight: 600;
+}
+
+.navbar ul li a:hover {
+	color: #000;
+}
+
+.navbar > a {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+
+.collapse li a {
+    color: #ffffff;
+    padding: 0px 15px;
+    display: inline-flex;
+}
+
+.header .logo {
+	width: 100%;
+    max-width: 115px;
+    display: inline-block;
+}
+
+.header .logo img {
+	width: 100%;
+    height: 60px;
+}
+
+/* Header Top Style Ends Here */
+
+/* Banner Style Start Here */
+
+.banner {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #d70d25;
+    padding: 215px 0px;
+}
+
+.banner:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 112px;
+    background: url(../images/shape-bg.png) repeat-x center;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.banner .back-shapes div {
+    position: absolute;
+    opacity: 0.15;
+}
+
+.banner .back-shapes div:nth-child(1) {
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 20%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    animation: shapeani01 5s linear infinite;
+}
+
+.banner .back-shapes div:nth-child(2){
+	height: 80px;
+	width: 80px;
+	top: 60%;
+	left: 60%;
+	background-color: transparent;
+	border-radius: 50%;
+	border: 5px solid #ffffff;
+	border-bottom: 5px solid transparent;
+	animation: shapeani02 7s linear infinite;
+}
+
+.banner .back-shapes div:nth-child(3){
+	height: 60px;
+	width: 60px;
+	top: 10%;
+	left: 90%;
+	background-color: transparent;
+	border-radius: 50%;
+	border: 5px solid #ffffff;
+	border-left: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	animation: shapeani02 7s linear infinite;
+}
+
+.banner .back-shapes div:nth-child(4){
+	height: 200px;
+	width: 200px;
+	top: 40%;
+	left: calc(100% - 100px);
+	background-color: #ffffff;
+	border-radius: 50%;
+	animation: shapeani03 10s linear infinite;
+}
+.banner .back-shapes div:nth-child(5){
+	height: 100px;
+	width: 100px;
+	top: 40%;
+	left: calc(0% - 50px);
+	background-color: transparent;
+	border: 5px solid #ffffff;
+	animation: shapeani02 10s linear infinite;
+}
+
+/* Made Animation CSS */
+
+@keyframes shapeani01{
+	0%,100%{
+		transform: translateX(0px);
+	}
+	50%{
+		transform: translateX(50px);
+	}
+}
+
+@keyframes shapeani02{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes shapeani03{
+	0%,100%{
+		transform: scale(0.5);
+	}
+	50%{
+		transform: scale(1);
+	}
+}
+
+/* Made Animation CSS */
+
+.banner-text h1 {
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+
+.banner-text p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.banner-text a {
+    color: #d70d25;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 12px 36px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; 
+    z-index: 1;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.banner-text a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    background-color: rgba(0,0,0,.1);
+    height: 100%;
+    z-index: -1;
+    transition: all .3s ease;
+}
+
+.banner-text a:hover::after:hover {
+    width: 100%;
+}
+
+.banner .banner-img img{
+	max-width: 410px;
+	width: 100%;
+	position: absolute;
+	left: 150px;
+	top: -50px;
+	animation: productani01 5s linear infinite;
+}
+
+@keyframes productani01{
+	0%,100%{
+		transform: translateY(15px);
+	}
+	50%{
+		transform: translateY(-15px);
+	}
+}
+
+/* Banner Style Ends Here */
+
+/* Monitor Style Start Here */
+
+.watch-items{
+	padding: 40px 0;
+	background-color: #ffffff;
+}
+
+
+.section-title {
+	margin-bottom: 15px;
+	display: inline-block;
+}
+
+.section-title h1 {
+	color: #d70d25;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 1.5px;
+}
+
+.section-title p {
+	color: #959595;
+}
+
+.products-item{
+	box-shadow: 0 0 10px #dddde3;
+	margin: 15px 0;
+}
+.product-img{
+	border-bottom: 1px solid #eeeeee;
+	position: relative;
+}
+.product-img .overlay{
+	position: absolute;
+	left: 0;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	transition: all .5s ease;
+	display: inline-block;
+	z-index: 1;
+	opacity: 0;
+	text-align: center;
+}
+.products-item:hover .product-img .overlay{
+    opacity: 1;
+}
+.product-img .overlay .btn{
+	margin: auto;
+	transform: translateY(200px);
+	transition: all .5s ease;
+	border: none;
+	display: inline-block;
+	text-transform: uppercase;
+	border-radius: 50px;
+    padding: 12px 36px;
+}
+.products-item:hover .product-img .overlay .btn{
+	transform: translateY(100px);
+}
+
+.product-img img{
+	width: 100%;
+	display: block;
+}
+.product-content{
+	padding: 0 30px;
+	text-align: center;
+
+}
+.product-content .product-price{
+	margin: 15px 0 5px;
+}
+.product-content .product-price .new-price{
+	font-size: 18px;
+	font-weight: 700;
+	display: inline-block;
+	margin: 0 5px;
+	color: #d70d25;
+}
+.product-content .product-price .old-price{
+	font-size: 18px;
+	font-weight: 400;
+	display: inline-block;
+	color: #959595;
+}
+.product-content .product-name{
+	font-size: 16px;
+	font-weight: 600;
+	color: #222222;
+	line-height: 26px;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+.owl-carousel .owl-nav{
+	text-align: center;
+	margin-top: 25px;
+}
+
+.owl-carousel .owl-nav button.owl-next:focus, 
+.owl-carousel .owl-nav button.owl-prev:focus{
+	outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-prev{
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin: 0 10px;
+	border-radius: 50%;
+	color: #ffffff;
+	font-weight: 500;
+	overflow: hidden;
+	background-color: #d70d25;
+}
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span{
+	font-size: 40px;
+	margin-top: 0px;
+	display: block;
+}
+
+/* Monitor Style Ends Here */
+
+/* ********************************* Accessories Page Style Ends Here *************************** */
+
+
+/* ********************************* Component Page Style Start Here **************************** */
+
+.monitor-items,
+.cpu-cooler-items,
+.ram-items {
+	display: block;
+	padding: 40px 0;
+	background-color: #ffffff;
+}
+
+/* ********************************* Component Page Style Ends Here **************************** */
+
+/* ********************************* Index Page Style Start Here ******************************* */
+
+.grid {
+	padding: 8px 0px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    background-color: #869791;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    bottom: -47px;
+}
+
+.home-product {
+ 	margin-bottom: 30px;	
+}
+
+.home-product .product-box {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.product-image {
+    width: 100%;
+    display: inline-block;
+    padding: 30px;
+	position: relative;
+}
+
+.home-product .product-box .product-image img {
+	width: 100%;
+	display: inline-block;
+}
+
+.home-product .product-box .product-image .product-hover  {
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    transition: all .5s ease;
+    display: inline-block;
+    z-index: 1;
+    opacity: 0;
+    text-align: center;
+}
+
+.home-product .product-box .product-image .product-hover a {
+	margin: auto;
+    transform: translateY(170px);
+    transition: all .5s ease;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: #fff;
+	background-color: #d70d25;
+    text-decoration: none;
+	padding: 10px 25px;
+}
+
+.home-product .product-box .product-image .product-hover a::before {
+	content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    background-color: rgba(0,0,0,.1);
+    height: 100%;
+    z-index: -1;
+    transition: all .3s ease;
+    border-radius: 50px;
+}
+
+.home-product .product-box .product-image:hover .product-hover {
+	opacity: 1;
+	transition: all .5s ease;
+} 
+
+.product-details {
+	padding: 12px 25px;
+}
+
+.product-details h3 {
+	color: #080a0a;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 26px;
+}
+
+.product-details p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.product-details p i {
+	font-size: 25px;
+	color: #0dd750;
+}
+
+/* ---------footer------------- */
+
+.footer{
+    background: #d70d25;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p {
+    color: #FFD;
+    padding: 0px 25px;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+	display: inline-block;
+	text-align: center;
+}
+
+.footer .footer-logo img {
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.app-logo{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.app-logo img{
+    width: 115px;
+    display: inline-block;
+}
+.footer hr{
+    border:none ;
+    background: #b5b5b5;
+    height: 1px;
+    margin:20px 0;
+}
+.copyright{
+    text-align: center;
+}
+
+.copyright a {
+	color: #ffffff;
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+.copyright a:hover {
+	color: #000;
+	font-weight: 600;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+.footer ul li a {
+	color: #FFD;
+	text-decoration: none;
+	transition: all .3s ease;
+}
+
+.footer ul li a:hover {
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+/*    *********************** Index page style ends here *************************** */
+
+/* ********************** About Page Style Start Here **************************** */
+
+.about-us {
+	padding: 50px 0px;
+}
+
+.about-us .about-title {
+	color: #d70d25;
+	padding: 10px 0px;
+}
+
+.about-text p {
+	color: #959595;
+	line-height: 27px;
+	font-size: 15px;
+}
